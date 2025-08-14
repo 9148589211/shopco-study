@@ -1,0 +1,141 @@
+.margin{
+  margin-top: 8rem;
+}
+.Detaisofproduct-details{
+  width:  90vw;
+  height: 80vh;
+  
+}
+
+.Detaisofproduct-small-img img{
+  width: 10vw;
+  height: 20vh;
+  margin: 10px;
+  border-radius: 5px;
+}
+.Detaisofproduct-display-img img{
+  width: 40vw;
+  height: 75vh;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.Detaisofproduct-similar-products{
+  font-family: Integral CF;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.Detaisofproductreview{
+  width: 97vw;
+  
+}
+.Detaisofproduct-similar-products{
+  width: 97vw;
+}
+.Detaisofproduct-details-options h1{
+font-family: 'Integral CF', sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+}
+.off{
+  background-color: rgb(241, 197, 197);
+  color: rgb(233, 29, 29);
+  border-radius: 20%;
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f5f6f8; */
+  margin: 0;
+  padding: 0;
+}
+
+.cart-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cart-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.product-image {
+  width: 80px;
+  height: auto;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h3 {
+  margin: 0 0 8px;
+}
+
+.quantity-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.quantity-buttons button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.remove-button {
+  background: none;
+  color: red;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.total-section {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.checkout-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.checkout-button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
